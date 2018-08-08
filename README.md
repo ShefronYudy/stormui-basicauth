@@ -14,7 +14,7 @@ ui.filter.params:
 ```  
 ## dependency
 
-mvn clean package and add stormui-basicauth-0.0.1.jar to ${STORM_HOME}/lib or ${STORM_HOME}/extlib
+`mvn clean package` and add `stormui-basicauth-0.0.1.jar` to ${STORM_HOME}/lib or ${STORM_HOME}/extlib
 
 ## restart storm ui process
 
