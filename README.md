@@ -18,4 +18,7 @@ ui.filter.params:
 
 ## restart storm ui process
 
-
+```
+ps -ef | grep "ui.core"
+nohup ./storm ui > /dev/null 2>&1 &
+```
